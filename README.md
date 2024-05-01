@@ -53,7 +53,7 @@ I focused on securing a stable foothold within the compromised system to maintai
 ## 6. Command and Control
 I delved into the intricacies of managing and directing compromised systems through reverse shell attacks. This phase is pivotal as it demonstrates how attackers maintain communication with and control over infiltrated systems across various platforms.
 Here's how I approached the command and Control
-- **Ncat (Network Cat)**: I extensively used Ncat for its capability to handle inbound and outbound network connections which is instrumental in establishing reverse shells. This utility allowed me to create a listening state on the attacker's server, receive incoming connections from the target system, and execute commands remotely.
+- **Ncat (Network Cat)**: I used Ncat for its capability to handle inbound and outbound network connections which is instrumental in establishing reverse shells. This utility allowed me to create a listening state on the attacker's server, receive incoming connections from the target system, and execute commands remotely.
 - **Reverse Shell Attacks**: I applied reverse shell techniques across different operating systems (Linux, Windows, macOS) to evaluate the effectiveness of C2 tactics under diverse environments. Using Linode as a simulated attacker's server.
 - **Hardware-based Attacks**: I explored physical vulnerabilities by deploying a BadUSB attack using the `Flipper Zero` device on a macOS system. This experiment involved a keystroke injection attack via Ducky Script, which successfully compromised the system.
 ## 7. Actions on Objectives
