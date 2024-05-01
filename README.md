@@ -3,7 +3,7 @@ A comprehensive analysis of the 7 stages of the cyber kill chain, including deta
 ## 1. Reconnaissance
 I conducted a detailed security analysis to identify vulnerabilities within network environments. Here's how I approached this first step:
 
-- **ZENMAP**: I used Zenmap for network mapping and port scanning, which revealed 29 active devices and key services like SSH and VNC at BCIT. This helped pinpoint potential security risks.
+- **ZENMAP**: I used Zenmap for network mapping and port scanning, which revealed 29 active devices and key services like SSH and VNC in the controlled environment. This helped pinpoint potential security risks.
 - **MALTEGO**: Employed for gathering open-source intelligence, Maltego helped me understand network connections and digital footprints effectively.
 - **THEHARVESTER**: This tool was crucial for collecting publicly available information about domains, enhancing my understanding of the target's external exposure.
 - **WAFW00F** and **WHATWEB**: I identified the absence of robust Web Application Firewalls and detailed the web technologies in use, which indicated potential entry points for web-based attacks.
